@@ -1,0 +1,20 @@
+# networking
+wbench_hostname: 'oob-mgmt-server'
+wbench_user: 'admin'
+wbench_passwd: '$6$cSo.B76t$HncC3ZcSUQSC4R.v5W.csiLvjwU7LQc3ELmt39NU3PSg2W8uI0w6qziVRVn.KFL/4h1Zg6v/rv5f.JehnBaO11' # admin
+wbench_eth1_network: '10.35.80.0'
+wbench_eth1_ip: '10.35.81.200'
+wbench_eth1_mask: '255.255.254.0'
+
+wbench_dhcp_range_start: '10.35.81.220'
+wbench_dhcp_range_end: '10.35.81.230'
+
+dns_search1: 'lab.local'
+dns_server: '8.8.8.8'
+
+ntp_server: '0.europe.pool.ntp.org'
+
+wbench_hosts: {}
+ubuntu_apt_server: 'archive.ubuntu.com'
+
+create_key: false
